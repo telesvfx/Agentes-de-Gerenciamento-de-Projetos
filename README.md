@@ -96,7 +96,18 @@ AGENTS.md        # Regras globais de funcionamento
 - Use **Studio Producer** para decisoes de portfolio e alinhamento estrategico.
 
 ## Importante 
--Crie uma pasta .github e coloque os arquivos dentro de Gerenciamento de Projetos - Agentes para que a ativação de certo
+
+-Crie uma pasta .github e coloque os arquivos que estão dentro de "Gerenciamento de Projetos - Agentes" para em .github para a ativação dos agentes de certo, a estrutura ficaria:
+
+```text
+Gerenciamento de Projetos - Agentes (arquivo principal do projeto)
+.github (nova pasta que precisa adicionar)
+   ├── agents/      # Definicoes dos agentes (.agent.md)
+   ├── skills/      # Skills reutilizaveis (cada uma em sua pasta com SKILL.md)
+   ├── docs/        # Documentacao de uso
+   └── resultado/   # Entregas geradas em markdown
+   AGENTS.md        # Regras globais de funcionamento
+```
 
 ## Conclusao
 
