@@ -97,7 +97,7 @@ AGENTS.md        # Regras globais de funcionamento
 
 ## Importante 
 
--Crie uma pasta .github e coloque os arquivos que estão dentro de "Gerenciamento de Projetos - Agentes" para em .github para a ativação dos agentes de certo, a estrutura ficaria:
+-Crie uma pasta .github e coloque os arquivos que estão dentro de "Gerenciamento de Projetos - Agentes"  em .github para que a ativação dos agentes de certo, a estrutura ficaria:
 
 ```text
 Gerenciamento de Projetos - Agentes (arquivo principal do projeto)
