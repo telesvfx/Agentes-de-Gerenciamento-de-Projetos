@@ -39,7 +39,7 @@ Este projeto implementa um time de agentes especializados em gestao de projetos 
 ### Estrutura do repositorio
 
 ```text
-Gerenciamento de Projetos Agentes
+Gerenciamento de Projetos - Agentes
 ├── agents/      # Definicoes dos agentes (.agent.md)
 ├── skills/      # Skills reutilizaveis (cada uma em sua pasta com SKILL.md)
 ├── docs/        # Documentacao de uso
@@ -49,7 +49,7 @@ AGENTS.md        # Regras globais de funcionamento
 
 ### Arquitetura de agentes
 
-- Cada agente e definido em `Gerenciamento de Projetos Agentes/agents/*.agent.md` com:
+- Cada agente e definido em `Gerenciamento de Projetos - Agentes/agents/*.agent.md` com:
   - `name`, `description`, estilo, regras, templates e workflow.
   - lista de skills relacionadas para acionar quando fizer sentido.
 - O Orchestrator funciona como camada de coordenacao:
@@ -94,6 +94,9 @@ AGENTS.md        # Regras globais de funcionamento
 - Use **Project Shepherd** para cronogramas e coordenacao cross-funcional.
 - Use **Studio Operations** para processos internos e eficiencia diaria.
 - Use **Studio Producer** para decisoes de portfolio e alinhamento estrategico.
+
+## Importante 
+-Crie uma pasta .github e coloque os arquivos dentro de Gerenciamento de Projetos - Agentes para que a ativação de certo
 
 ## Conclusao
 
